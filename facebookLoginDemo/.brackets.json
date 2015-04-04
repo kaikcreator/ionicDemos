@@ -1,0 +1,6 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/home/kaik/work/phonegapProjects/ionicDemos/facebookLoginDemo/platforms/android/assets/www/cordova_plugins.js",
+        "/home/kaik/work/phonegapProjects/ionicDemos/facebookLoginDemo/platforms/android/platform_www/cordova.js"
+    ]
+}

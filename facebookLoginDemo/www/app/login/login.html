@@ -1,0 +1,12 @@
+<ion-view title="Login">
+    <ion-content>
+    	<h3 class="padding">This view tries to log-in with Facebook</h3>
+		<br/>
+		<div ng-show="showFacebookLogin"  class="padding">You're logged out. Please, log-in again</div>
+        <button ng-show="showFacebookLogin" class="button button-assertive button-block padding" ng-click="login()">
+        	Facebook login!
+        </button>
+        <h4 class="padding" ng-hide="showFacebookLogin">Sorry, you cannot login with Facebook</h4>
+        <br/>
+    </ion-content>
+</ion-view>
